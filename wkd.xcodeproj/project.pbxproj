@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C903EDA022299FF50099DA74 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C903ED9F22299FF50099DA74 /* Roboto-Regular.ttf */; };
+		C903EDA22229BD9B0099DA74 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C903EDA12229BD9B0099DA74 /* Roboto-Medium.ttf */; };
+		C903EDA4222AE45D0099DA74 /* oAplikacjiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C903EDA3222AE45D0099DA74 /* oAplikacjiController.swift */; };
 		C9F65750221DBEB800754547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6574F221DBEB800754547 /* AppDelegate.swift */; };
 		C9F65752221DBEB800754547 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F65751221DBEB800754547 /* ViewController.swift */; };
 		C9F65755221DBEB800754547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F65753221DBEB800754547 /* Main.storyboard */; };
@@ -15,6 +18,10 @@
 		C9F6575D221DBEBC00754547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F6575B221DBEBC00754547 /* LaunchScreen.storyboard */; };
 		C9F65768221DBEBD00754547 /* wkdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F65767221DBEBD00754547 /* wkdTests.swift */; };
 		C9F65773221DBEBD00754547 /* wkdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F65772221DBEBD00754547 /* wkdUITests.swift */; };
+		C9F65781221EBA5F00754547 /* stKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F65780221EBA5F00754547 /* stKViewController.swift */; };
+		C9F65783221EBD4600754547 /* timeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F65782221EBD4600754547 /* timeViewController.swift */; };
+		C9F6578522200D9800754547 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6578422200D9700754547 /* FinalViewController.swift */; };
+		C9F6578722200FC100754547 /* rozklad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6578622200FC100754547 /* rozklad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C903ED9F22299FF50099DA74 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		C903EDA12229BD9B0099DA74 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		C903EDA3222AE45D0099DA74 /* oAplikacjiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oAplikacjiController.swift; sourceTree = "<group>"; };
 		C9F6574C221DBEB800754547 /* wkd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wkd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F6574F221DBEB800754547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9F65751221DBEB800754547 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,10 @@
 		C9F6576E221DBEBD00754547 /* wkdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wkdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F65772221DBEBD00754547 /* wkdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wkdUITests.swift; sourceTree = "<group>"; };
 		C9F65774221DBEBD00754547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F65780221EBA5F00754547 /* stKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stKViewController.swift; sourceTree = "<group>"; };
+		C9F65782221EBD4600754547 /* timeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeViewController.swift; sourceTree = "<group>"; };
+		C9F6578422200D9700754547 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		C9F6578622200FC100754547 /* rozklad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rozklad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C903ED9C22299F550099DA74 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C903ED9F22299FF50099DA74 /* Roboto-Regular.ttf */,
+				C903EDA12229BD9B0099DA74 /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		C9F65743221DBEB800754547 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +122,14 @@
 		C9F6574E221DBEB800754547 /* wkd */ = {
 			isa = PBXGroup;
 			children = (
-				C9F6574F221DBEB800754547 /* AppDelegate.swift */,
+				C903ED9C22299F550099DA74 /* Fonts */,
+				C9F6578622200FC100754547 /* rozklad.swift */,
+				C903EDA3222AE45D0099DA74 /* oAplikacjiController.swift */,
+				C9F6578422200D9700754547 /* FinalViewController.swift */,
+				C9F65782221EBD4600754547 /* timeViewController.swift */,
+				C9F65780221EBA5F00754547 /* stKViewController.swift */,
 				C9F65751221DBEB800754547 /* ViewController.swift */,
+				C9F6574F221DBEB800754547 /* AppDelegate.swift */,
 				C9F65753221DBEB800754547 /* Main.storyboard */,
 				C9F65759221DBEBC00754547 /* Assets.xcassets */,
 				C9F6575B221DBEBC00754547 /* LaunchScreen.storyboard */,
@@ -232,8 +261,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C903EDA22229BD9B0099DA74 /* Roboto-Medium.ttf in Resources */,
 				C9F6575D221DBEBC00754547 /* LaunchScreen.storyboard in Resources */,
 				C9F6575A221DBEBC00754547 /* Assets.xcassets in Resources */,
+				C903EDA022299FF50099DA74 /* Roboto-Regular.ttf in Resources */,
 				C9F65755221DBEB800754547 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C903EDA4222AE45D0099DA74 /* oAplikacjiController.swift in Sources */,
 				C9F65758221DBEB800754547 /* wkd.xcdatamodeld in Sources */,
+				C9F6578722200FC100754547 /* rozklad.swift in Sources */,
+				C9F6578522200D9800754547 /* FinalViewController.swift in Sources */,
 				C9F65752221DBEB800754547 /* ViewController.swift in Sources */,
 				C9F65750221DBEB800754547 /* AppDelegate.swift in Sources */,
+				C9F65781221EBA5F00754547 /* stKViewController.swift in Sources */,
+				C9F65783221EBD4600754547 /* timeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

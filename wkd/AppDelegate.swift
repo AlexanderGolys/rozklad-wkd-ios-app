@@ -17,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UserDefaults.standard.removeObject(forKey: "milan1")
+        UserDefaults.standard.removeObject(forKey: "milan2")
+        UserDefaults.standard.removeObject(forKey: "nFirst")
+        UserDefaults.standard.removeObject(forKey: "stacjaP")
+        UserDefaults.standard.removeObject(forKey: "stacjaK")
+        UserDefaults.standard.removeObject(forKey: "swieto")
+        UserDefaults.standard.removeObject(forKey: "time")
+      
+
         return true
     }
 
@@ -42,6 +51,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
+            UserDefaults.standard.removeObject(forKey: "milan1")
+            UserDefaults.standard.removeObject(forKey: "milan2")
+            UserDefaults.standard.removeObject(forKey: "nFirst")
+            UserDefaults.standard.removeObject(forKey: "stacjaP")
+            UserDefaults.standard.removeObject(forKey: "stacjaK")
+            UserDefaults.standard.removeObject(forKey: "swieto")
+            UserDefaults.standard.removeObject(forKey: "time")
     }
 
     // MARK: - Core Data stack
